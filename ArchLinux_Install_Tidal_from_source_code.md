@@ -1,9 +1,9 @@
-<h1>ArchLinux - Install Tidal from source code</h1>
+<h1>ArchLinux - Install Tidal from source</h1>
 
 
-In order to install the latest version of Tidal from source code follow the setps below.
+In order to install the latest version of Tidal from source follow the steps below.
 
-Note: For me it didn't work to install it from AUR giving me a bunch of errors but from source it works perfectly.
+<strong>Note:</strong> For me it didn't work to install it from AUR giving me a bunch of errors but from source it works perfectly.
 
 <ol>
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
