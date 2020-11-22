@@ -1,0 +1,6 @@
+2020/03/26-03:30:46.699 5754 Reusing MANIFEST /home/beju/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/26-03:30:46.700 5754 Recovering log #194
+2020/03/26-03:30:46.700 5754 Reusing old log /home/beju/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000194.log 
+2020/03/26-03:32:51.163 640d Level-0 table #198: started
+2020/03/26-03:32:51.174 640d Level-0 table #198: 15329 bytes OK
+2020/03/26-03:32:51.188 640d Delete type=0 #194

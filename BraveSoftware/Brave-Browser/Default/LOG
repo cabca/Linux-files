@@ -1,0 +1,14 @@
+2020/03/26-03:40:53.325 861a Recovering log #42
+2020/03/26-03:40:53.325 861a Level-0 table #44: started
+2020/03/26-03:40:53.332 861a Level-0 table #44: 660 bytes OK
+2020/03/26-03:40:53.367 861a Delete type=0 #42
+2020/03/26-03:40:53.367 861a Delete type=3 #40
+2020/03/26-03:40:53.367 8fac Compacting 4@0 + 1@1 files
+2020/03/26-03:40:53.377 8fac Generated table #46@0: 1 keys, 459 bytes
+2020/03/26-03:40:53.377 8fac Compacted 4@0 + 1@1 files => 459 bytes
+2020/03/26-03:40:53.411 8fac compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/03/26-03:40:53.411 8fac Delete type=2 #33
+2020/03/26-03:40:53.411 8fac Delete type=2 #35
+2020/03/26-03:40:53.411 8fac Delete type=2 #38
+2020/03/26-03:40:53.411 8fac Delete type=2 #41
+2020/03/26-03:40:53.411 8fac Delete type=2 #44

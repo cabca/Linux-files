@@ -1,0 +1,54 @@
+body {
+    pointer-events: none;
+}
+
+#omarVaultMigrationDialog.dialog {
+    width: 525px;
+    height: 350px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-size: 13px;
+    color: #22303a;
+}
+
+#omarVaultMigrationDialog .dialogContent {
+    text-align: center;
+    top: 40px;
+}
+
+.omar-vault-migration-dialog .dialog__content {
+    font-size: 13px;
+    color: #22303a;
+}
+
+.omar-vault-migration-dialog .dialog__content h1 {
+    color: #0c0c0c;
+    font-weight: 400;
+}
+
+.omar-vault-migration-dialog .dialog__content p {
+    padding-top: 5px;
+}
+
+.omar-vault-migration-dialog .dialog__content .dialog__image {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #0c0c0c;
+}
+
+.omar-vault-migration-dialog .dialog__actions .button--primary {
+    background: #D32D27;
+    box-shadow: 0px 1px 1px rgba(57, 74, 84, 0.2), 0px 1px 6px rgba(57, 74, 84, 0.1);
+    border-radius: 100px;
+    color: #ffffff;
+    width: 178px;
+    height: 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    pointer-events: visible;
+}

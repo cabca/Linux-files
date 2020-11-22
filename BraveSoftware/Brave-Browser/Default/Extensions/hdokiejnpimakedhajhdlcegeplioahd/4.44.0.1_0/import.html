@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<meta http-equiv="Expires" CONTENT="0">
+<meta http-equiv="CACHE-CONTROL" CONTENT="no-cache">
+<title>LastPass</title>
+<link rel="stylesheet" type="text/css" href="fonts/opensans/opensans.css">
+<link rel="stylesheet" type="text/css" href="general.css">
+<link rel="stylesheet" type="text/css" href="sites.css">
+
+<script type='text/javascript' src="lpfulllib.js"></script>
+<script type='text/javascript' src="import1.js"></script>
+
+</head>
+<body>
+
+<div class='main'>
+    <img src='logo_big.png' class="logo">
+
+    <div class="searchsites clearfix">
+        <div id="needbinaryspan" class="displaynone" style="width: 500px; margin-bottom: 30px;">
+            <a id="getbinary" href="#" style="margin: 0">
+                <span id="lp_docwrite_import2"><!--gs('Install the binary version of LastPass for Chrome to enable importing passwords from Google Chrome password manager')--></span>
+            </a>
+        </div>
+        <div class="floleft">
+            <button id="lpimport"></button> 
+            <input type="button" id="cancel">&nbsp;
+        </div>
+        <div class="floright">
+          <input type="button" id="selectall"> <input type="button" id="unselectall">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="import3.js"></script>
+
+    <div id="gridsites" class="import">
+        <div class="header clearfix">
+            <div id="headername"><span class="sort"><span class="title"><span id="lp_docwrite_import4"><!--gs('SITE')--></span></span></span></div>
+            <div id="headerusername"><span class="sort"><span class="title"><span id="lp_docwrite_import5"><!--gs('USERNAME')--></span></span></span></div>
+            <div id="headerpassword"><span class="sort"><span class="title"><span id="lp_docwrite_import6"><!--gs('PASSWORDupper')--></span></span></span></div>
+            <div id="headerimport"><span class="sort"><span class="title"><span id="lp_docwrite_import7"><!--gs('IMPORT?')--></span></span></span></div>
+        </div>
+      <div id="gridsite">
+        <!-- Groups and sites are dynamically added here -->
+      </div>
+    </div>
+</div>
+<script type="text/javascript" src="import_end.js"></script></body>
+</html>

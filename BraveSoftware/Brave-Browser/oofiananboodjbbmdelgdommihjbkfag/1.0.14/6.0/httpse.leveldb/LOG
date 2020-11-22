@@ -1,0 +1,7 @@
+2020/03/26-03:30:46.617 56eb Recovering log #3
+2020/03/26-03:30:46.843 56eb Level-0 table #5: started
+2020/03/26-03:30:46.933 56eb Level-0 table #5: 2771043 bytes OK
+2020/03/26-03:30:46.937 56eb Recovering log #35
+2020/03/26-03:30:46.970 56eb Delete type=0 #35
+2020/03/26-03:30:46.970 56eb Delete type=0 #3
+2020/03/26-03:30:46.970 56eb Delete type=3 #2
