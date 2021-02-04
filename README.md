@@ -77,13 +77,13 @@ The first variable fixes most indicators (especially electron based ones!), the 
 
 Create a file called `90-monitor.conf` in `/etc/X11/xorg.conf.d`.
 
+```
 Section "Monitor"
     Identifier "DP-1"
     Modeline "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
     Option "PreferredMode" "2560x1440_60.00"
 EndSection
 
-```
 Section "Screen"
     Identifier "Screen0"
     Monitor "DP-1"
