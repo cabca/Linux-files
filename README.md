@@ -73,7 +73,28 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 The first variable fixes most indicators (especially electron based ones!), the second tells Qt and KDE applications to use your gtk2 theme set through lxappearance.
 
-### 5) Read the documentation
+### 5) Fix your monitor resolution
+
+Create a file called `90-monitor.conf` in `/etc/X11/xorg.conf.d`.
+
+Section "Monitor"
+    Identifier "DP-1"
+    Modeline "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
+    Option "PreferredMode" "2560x1440_60.00"
+EndSection
+
+```
+Section "Screen"
+    Identifier "Screen0"
+    Monitor "DP-1"
+    DefaultDepth 24
+    SubSection "Display"
+        Modes "2560x1440_60.00"
+    EndSubSection
+EndSection
+```
+
+### 6) Read the documentation
 
 The documentation live within the source code.
 
