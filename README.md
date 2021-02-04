@@ -29,7 +29,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 #### Arch-Based
 
 ```
-yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager -y
+yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager nautilus brave terminator xinput-gui discord slack-desktop tidal-nativefier visual-studio-code-bin pagraphcontrol-git celluloid-git zoom qbittorrent-git gedit -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
