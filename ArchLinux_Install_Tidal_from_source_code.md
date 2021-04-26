@@ -9,6 +9,7 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
   <li>cd tidal-hifi
   <li>npm install
+  <li>go to directory ~/tidal-hifi/build/linux/arch
   <li>makepkg si
   <li>makepkg --install
 </ol>
