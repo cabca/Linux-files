@@ -29,6 +29,8 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>npm run build
   <li>cd tidal-hifi/dist/
   <li>sudo pacman -U package_name.pacman (If you have an older version you need to remove it first "yay -Rsc tidal-hifi-git")
+  <li>To fix the icon open <strong>/usr/share/applications/tidal-hifi.desktop</strong>, change the icon line to <strong>/usr/share/icons/hicolor/0x0/apps/tidal-          hifi.png</strong>
+  <li>run gtk-update-icon-cache
 </ol>
 
 <br>
