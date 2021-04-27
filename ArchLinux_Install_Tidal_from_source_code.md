@@ -35,6 +35,6 @@ In order to install the latest version of Tidal from source follow the steps bel
 <ol>
   <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
   <li>download the .AppImage file
-  <li>open terminal in the location of the .AppImage, chmox +x package_name.AppImage
+  <li>open terminal in the location of the .AppImage, chmod +x package_name.AppImage
   <li>the file is executable, just double-click on it to open the app, no fuss
 </ol>
