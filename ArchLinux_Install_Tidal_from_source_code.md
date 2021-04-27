@@ -5,6 +5,7 @@ In order to install the latest version of Tidal from source follow the steps bel
 
 <strong>Note:</strong> For me it didn't work to install it from AUR giving me a bunch of errors but from source it works perfectly.
 
+
 <strong>Option 1</strong>
 <ol>
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
@@ -14,6 +15,7 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>makepkg si
   <li>makepkg --install
 </ol>
+
 
 <strong>Option 2</strong>
 <ol>
@@ -27,6 +29,7 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>go to tidal-hifi folder /dist
   <li>sudo pacman -U package_name.pacman (If you have an oleder version you need to remove it first "yay -Rsc tidal-hifi-git")
 </ol>
+
 
 <strong>Option 3</strong>
 <ol>
