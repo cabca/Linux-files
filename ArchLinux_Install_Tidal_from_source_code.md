@@ -27,7 +27,7 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>update the electron version the builder is using <strong>electronVersion</strong> and <strong>version</strong> with the latest stable one from https://github.com/castlabs/electron-releases/releases
   <li>npm run build
   <li>go to tidal-hifi folder /dist
-  <li>sudo pacman -U package_name.pacman (If you have an oleder version you need to remove it first "yay -Rsc tidal-hifi-git")
+  <li>sudo pacman -U package_name.pacman (If you have an older version you need to remove it first "yay -Rsc tidal-hifi-git")
 </ol>
 
 <br>
