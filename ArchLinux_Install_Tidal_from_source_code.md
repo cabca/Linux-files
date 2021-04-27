@@ -17,6 +17,7 @@ In order to install the latest version of Tidal from source follow the steps bel
 </ol>
 
 
+
 <strong>Option 2</strong>
 <ol>
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
@@ -29,6 +30,8 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>go to tidal-hifi folder /dist
   <li>sudo pacman -U package_name.pacman (If you have an oleder version you need to remove it first "yay -Rsc tidal-hifi-git")
 </ol>
+
+
 
 
 <strong>Option 3</strong>
