@@ -12,12 +12,10 @@ Run the following command for editing the file.
 ```
 sudo nano /etc/pacman.conf
 ```
-Now, scroll down and find out the “multilib” section.
+Now, scroll down and find out the “multilib” section by removing <strong>#</strong>.
 Uncomment the “multilib” section.
 ```
 [multilib]
-````
-```
 Include = /etc/pacman.d/mirrorlist
 ```
 Run pacman to update the package database.
