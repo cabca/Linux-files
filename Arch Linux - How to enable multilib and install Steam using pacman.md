@@ -1,4 +1,4 @@
-<h1>How to enable multilib and install Steam on Arch Linux with pacman</h1>
+<h1>Arch Linux - How to enable multilib and install Steam using pacman</h1>
 
 <br>
 
