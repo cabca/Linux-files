@@ -6,8 +6,10 @@ To return to the original breadcrumb view, make sure that the editable text area
 
 To make it permanent (i.e. to always use location entry) run:
 
-gsettings set org.gnome.nautilus.preferences always-use-location-entry true
+<strong>gsettings set org.gnome.nautilus.preferences always-use-location-entry true</strong>
+
 or
 
-dconf write /org/gnome/nautilus/preferences/always-use-location-entry true
+<strong>dconf write /org/gnome/nautilus/preferences/always-use-location-entry true</strong>
+
 Same commands to revert to breadcrumbs (just replace true with false).
