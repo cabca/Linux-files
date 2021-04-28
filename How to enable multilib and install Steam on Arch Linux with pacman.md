@@ -1,4 +1,4 @@
-How to enable multilib and install Steam on Arch Linux with pacman
+<h1>How to enable multilib and install Steam on Arch Linux with pacman</h1>
 <br>
 https://linuxhint.com/install_steam_arch_linux/
 
