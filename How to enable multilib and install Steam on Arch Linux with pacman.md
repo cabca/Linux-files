@@ -15,7 +15,7 @@ Enjoying Steam requires activating the “<strong>multilib</strong>” repositor
 ```
 sudo nano /etc/pacman.conf
 ```
-2. Now, scroll down and find out the “multilib” section. Uncomment the “multilib” section by removing <strong>#</strong>.
+2. Now, scroll down and find out the “multilib” section, uncomment it by removing <strong>#</strong>.
 ```
 [multilib]
 Include = /etc/pacman.d/mirrorlist
