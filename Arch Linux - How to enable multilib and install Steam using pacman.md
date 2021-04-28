@@ -30,3 +30,4 @@ sudo pacman -Sy
 ```
 sudo pacman -S steam
 ```
+Note : Pacman will automatically run all the installation task for Steam, even including the 32-bit libraries. Once the installation is complete, reboot your computer.
