@@ -11,20 +11,20 @@ Enjoying Steam requires activating the “<strong>multilib</strong>” repositor
 
 <br>
 
-Run the following command for editing the file.
+1. Run the following command for editing the file.
 ```
 sudo nano /etc/pacman.conf
 ```
-Now, scroll down and find out the “multilib” section. Uncomment the “multilib” section by removing <strong>#</strong>.
+2. Now, scroll down and find out the “multilib” section. Uncomment the “multilib” section by removing <strong>#</strong>.
 ```
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
-Run pacman to update the package database.
+3. Run pacman to update the package database.
 ```
 sudo pacman -Sy
 ```
-To install Steam run the following command.
+4. To install Steam run the following command.
 ```
 sudo pacman -S steam
 ```
