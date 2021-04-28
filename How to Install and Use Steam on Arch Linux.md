@@ -14,6 +14,12 @@ sudo nano /etc/pacman.conf
 ```
 Now, scroll down and find out the “multilib” section.
 Uncomment the “multilib” section.
+```
+[multilib]
+````
+```
+Include = /etc/pacman.d/mirrorlist
+```
 Run pacman to update the package database.
 ```
 sudo pacman -Sy
