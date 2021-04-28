@@ -9,6 +9,8 @@ Tweaking <strong>pacman.conf</strong>
 <br>
 Enjoying Steam requires activating the “<strong>multilib</strong>” repository. It’s not enabled by default. We have to manually edit the “<strong>pacman.conf</strong>” file and enable multilib.
 
+<br>
+
 Run the following command for editing the file.
 ```
 sudo nano /etc/pacman.conf
