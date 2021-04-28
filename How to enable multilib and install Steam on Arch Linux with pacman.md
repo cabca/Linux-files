@@ -24,7 +24,7 @@ Run pacman to update the package database.
 ```
 sudo pacman -Sy
 ```
-Installing Steam - Run the following command.
+To install Steam run the following command.
 ```
 sudo pacman -S steam
 ```
