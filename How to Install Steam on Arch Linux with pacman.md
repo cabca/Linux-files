@@ -1,4 +1,4 @@
-How to Install and Use Steam on Arch Linux
+How to Install Steam on Arch Linux with pacman
 https://linuxhint.com/install_steam_arch_linux/
 
 <br>
