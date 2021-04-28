@@ -4,8 +4,8 @@ https://linuxhint.com/install_steam_arch_linux/
 <br>
 
 Steam installation with Pacman
-Tweaking pacman.conf
-Enjoying Steam requires activating the “multilib” repository. It’s not enabled by default. We have to manually edit the “pacman.conf” file and enable multilib.
+Tweaking <strong>pacman.conf</strong>
+Enjoying Steam requires activating the “<strong>multilib</strong>” repository. It’s not enabled by default. We have to manually edit the “<strong>pacman.conf</strong>” file and enable multilib.
 
 Run the following command for editing the file.
 ```
