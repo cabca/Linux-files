@@ -1,7 +1,13 @@
 How to Install and Use Steam on Arch Linux
 https://linuxhint.com/install_steam_arch_linux/
 
+<br>
 
+Steam installation with Pacman
+Tweaking pacman.conf
+Enjoying Steam requires activating the “multilib” repository. It’s not enabled by default. We have to manually edit the “pacman.conf” file and enable multilib.
+
+Run the following command for editing the file.
 ```
 sudo nano /etc/pacman.conf
 ```
