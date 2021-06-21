@@ -5,6 +5,7 @@ In order to install the latest version of Tidal from source follow the steps bel
 
 <strong>Note:</strong> For me it didn't work to install it from AUR giving me a bunch of errors but from source it works perfectly.
 
+<br>
 <strong>Option 1</strong>
 <ol>
   <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
