@@ -41,3 +41,11 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>open terminal in the location of the .AppImage, chmod +x package_name.AppImage
   <li>the file is executable, just double-click on it to open the app, no fuss
 </ol>
+
+<strong>Option 4</strong>
+<ol>
+  <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
+  <li>download the .Pacman file
+  <li>open terminal in the location of the .Pacman
+  <li>sudo pacman -U whatever_file.pacman
+</ol>
