@@ -5,8 +5,16 @@ In order to install the latest version of Tidal from source follow the steps bel
 
 <strong>Note:</strong> For me it didn't work to install it from AUR giving me a bunch of errors but from source it works perfectly.
 
-<br>
 <strong>Option 1</strong>
+<ol>
+  <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
+  <li>download the .Pacman file
+  <li>open terminal in the location of the .Pacman
+  <li>sudo pacman -U whatever_file.pacman
+</ol>
+
+<br>
+<strong>Option 2</strong>
 <ol>
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
   <li>cd tidal-hifi
@@ -17,7 +25,7 @@ In order to install the latest version of Tidal from source follow the steps bel
 </ol>
 
 <br>
-<strong>Option 2</strong>
+<strong>Option 3</strong>
 <ol>
   <li>git clone https://github.com/Mastermindzh/tidal-hifi.git
   <li>cd tidal-hifi/build/
@@ -34,18 +42,10 @@ In order to install the latest version of Tidal from source follow the steps bel
 </ol>
 
 <br>
-<strong>Option 3</strong>
+<strong>Option 4</strong>
 <ol>
   <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
   <li>download the .AppImage file
   <li>open terminal in the location of the .AppImage, chmod +x package_name.AppImage
   <li>the file is executable, just double-click on it to open the app, no fuss
-</ol>
-
-<strong>Option 4</strong>
-<ol>
-  <li>go to https://github.com/Mastermindzh/tidal-hifi/releases
-  <li>download the .Pacman file
-  <li>open terminal in the location of the .Pacman
-  <li>sudo pacman -U whatever_file.pacman
 </ol>
