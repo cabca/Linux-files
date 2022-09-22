@@ -50,3 +50,12 @@ In order to install the latest version of Tidal from source follow the steps bel
   <li>open terminal in the location of the .AppImage, chmod +x package_name.AppImage
   <li>the file is executable, just double-click on it to open the app, no fuss
 </ol>
+
+<br>
+<strong>Option 5</strong>
+<ol>
+  <li>go to https://rambox.app/download/linux
+  <li>download the .AppImage file or DEB (Debian) or RPM (Red Had / Fedora)
+  <li>open terminal in the location of the .AppImage, chmod +x package_name.AppImage
+  <li>the file is executable, just double-click on it to open the app, no fuss
+</ol>
