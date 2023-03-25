@@ -27,7 +27,7 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 Now open Displays from the Applications Overview (or through Settings > Devices > Displays) and you’ll see a number of extra scaling options nestled in the scale section:
 Go ahead and try them out to see which (if any) suits your display.
 
-https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-22-at-00.39.31.png
+```https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-22-at-00.39.31.png```
 
 Remember: this setting is hidden, experimental and only works with Wayland. There are no guarantees that it will keep working. If you’re using the Ubuntu Xorg or GNOME Xorg sessions you can enable the setting above but you won’t see scaling options in Settings — so don’t file a bug!
 
