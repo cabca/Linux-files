@@ -1,0 +1,65 @@
+Base system:
+Red Hat Enterprise Linux (RHEL) - 10 years support
+Rocky Linux (1-to-1 copy of RHEL free) - 8 years support
+Alma Linux (1-to-1 copy of RHEL free) - 5 years support
+Debian - 5 years support
+Ubuntu - 5 years support
+OpenSUSE (Leap only) - 6 years support
+
+Shell:
+bash
+        
+Window Manager (WM):
+dwm
+bspwm
+hyprland
+
+Package Manager (PM):
+distro own package manager
+nix package manager
+flatpak
+
+Display Manager (MG):
+x11
+wayland
+
+Theme:
+Nordic-darker [GTK2/3]
+
+Icons:
+Breeze Dark [GTK2/3]
+
+Terminal:
+kitty
+
+Top bar:
+eww bar
+
+Image viewer
+feh
+
+Notification daemon
+dunst
+
+Animation daemon:
+picom
+
+Window switcher:
+rofi
+
+Hotkeys app:
+sxhkd
+
+Browser:
+Brave
+Firefox
+
+Screenshot app:
+flameshot
+
+Movie player:
+celluloid
+
+GitHub:
+github desktop
+gh
