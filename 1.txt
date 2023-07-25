@@ -1,0 +1,15 @@
+# Remove every kde app
+sudo apt remove kde-baseapps kdenlive* kdepim* kdeplasma* kde-* kde* && sudo apt purge kde-baseapps kdenlive* kdepim* kdeplasma* kde-* kde* && sudo apt autoremove -y
+
+1. Remove the meta packages.
+sudo apt remove kde-standard kde-plasma-desktop
+Confirm that the only packages under "REMOVED" is kde-standard, and kde-plasma-desktop so you don't uninstall your entire desktop. You should see a ton of packages under "no longer required", that's okay. Keep a note of them for later.
+2. Immediately mark plasma-desktop as manually installed.
+sudo apt install plasma-desktop
+3. Remember the packages under "no longer required"? Look through each of them and manually install each one you want to keep. Here is what I did:
+sudo apt install dolphin gwenview kate kcalc kde-spectacle ark plasma-nm sweeper
+4. Uninstall the orphaned packages.
+sudo apt autoremove Make a final note of all the queued packages. For good measure, save the uninstall log to a file that you can refer to if you're missing a package.
+
+# minimal kde install
+sudo apt -y install kde-plasma-desktop plasma-nm
