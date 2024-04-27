@@ -8,7 +8,7 @@ https://grafana.com/docs/
 ```
 
 
-# Upodate and upgrade the system, for example Debian.
+# Update and upgrade the system, for example Debian.
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
