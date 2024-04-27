@@ -1,4 +1,4 @@
-# Docs
+# Docs.
 ```
 https://prometheus.io/docs/introduction/overview/
 ```
@@ -14,7 +14,7 @@ sudo apt update -y && sudo apt upgrade -y
 ```
 
 
-# Check latest version of Prometheus and Node Exporter
+# Check latest version of Prometheus and Node Exporter.
 ```
 https://github.com/prometheus/prometheus/releases/
 ```
