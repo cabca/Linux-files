@@ -13,7 +13,9 @@ https://prometheus.io/download/
 ### Step 3: Download the source using curl, untar it, and rename the extracted folder to prometheus-files.
 ```
 curl -LO url -LO https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.linux-amd64.tar.gz
+```
 tar -xvf prometheus-2.51.2.linux-amd64.tar.gz
+```
 mv prometheus-2.51.2.linux-amd64 prometheus-files
 ```
 
