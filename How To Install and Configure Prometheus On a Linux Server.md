@@ -14,7 +14,11 @@ https://prometheus.io/download/
 ```
 curl -LO url -LO https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.linux-amd64.tar.gz
 ```
+
+```
 tar -xvf prometheus-2.51.2.linux-amd64.tar.gz
+```
+
 ```
 mv prometheus-2.51.2.linux-amd64 prometheus-files
 ```
@@ -22,25 +26,55 @@ mv prometheus-2.51.2.linux-amd64 prometheus-files
 ### Step 4: Create a Prometheus user, required directories, and make Prometheus the user as the owner of those directories.
 ```
 sudo useradd --no-create-home --shell /bin/false prometheus
+```
+
+```
 sudo mkdir /etc/prometheus
+```
+
+```
 sudo mkdir /var/lib/prometheus
+```
+
+```
 sudo chown prometheus:prometheus /etc/prometheus
+```
+
+```
 sudo chown prometheus:prometheus /var/lib/prometheus
 ```
 
 ### Step 5: Copy prometheus and promtool binary from prometheus-files folder to /usr/local/bin and change the ownership to prometheus user.
 ```
 sudo cp prometheus-files/prometheus /usr/local/bin/
+```
+
+```
 sudo cp prometheus-files/promtool /usr/local/bin/
+```
+
+```
 sudo chown prometheus:prometheus /usr/local/bin/prometheus
+```
+
+```
 sudo chown prometheus:prometheus /usr/local/bin/promtool
 ```
 
 ### Step 6: Move the consoles and console_libraries directories from prometheus-files to /etc/prometheus folder and change the ownership to prometheus user.
 ```
 sudo cp -r prometheus-files/consoles /etc/prometheus
+```
+
+```
 sudo cp -r prometheus-files/console_libraries /etc/prometheus
+```
+
+```
 sudo chown -R prometheus:prometheus /etc/prometheus/consoles
+```
+
+```
 sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
 
@@ -103,6 +137,9 @@ WantedBy=multi-user.target
 ### Step 3: Reload the systemd service to register the prometheus service and start the prometheus service.
 ```
 sudo systemctl daemon-reload
+```
+
+```
 sudo systemctl start prometheus
 ```
 
