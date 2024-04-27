@@ -45,7 +45,7 @@ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 
 # II. Setup Prometheus Configuration #
 
-### Note: All the prometheus configurations should be present in /etc/prometheus/prometheus.yml file.
+#### Note: All the prometheus configurations should be present in /etc/prometheus/prometheus.yml file.
 
 ### Step 1: Create the prometheus.yml file.
 ```
@@ -112,7 +112,7 @@ sudo systemctl status prometheus
 
 # IV. Access Prometheus Web UI #
 
-### Note: Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
+#### Note: Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
 ```
 http://<prometheus-ip>:9090/graph
 ```
