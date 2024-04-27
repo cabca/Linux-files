@@ -1,4 +1,4 @@
-# Setup Prometheus Binaries #
+# I. Setup Prometheus Binaries #
 
 ### Step 1: Update the yum package repositories.
 ```
@@ -43,7 +43,7 @@ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
 
 
-# Setup Prometheus Configuration #
+# II. Setup Prometheus Configuration #
 
 ### Note: All the prometheus configurations should be present in /etc/prometheus/prometheus.yml file.
 
@@ -70,7 +70,7 @@ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 ```
 
 
-# Setup Prometheus Service File #
+# III. Setup Prometheus Service File #
 
 ### Step 1: Create a prometheus service file.
 ```
@@ -110,7 +110,7 @@ sudo systemctl status prometheus
 ```
 
 
-# Access Prometheus Web UI #
+# IV. Access Prometheus Web UI #
 
 ### Note: Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
 ```
