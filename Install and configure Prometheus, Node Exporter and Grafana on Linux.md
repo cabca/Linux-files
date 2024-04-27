@@ -1,16 +1,30 @@
-# Upodate and upgrade the system.
+# Docs
+```
+https://prometheus.io/docs/introduction/overview/
+```
+
+```
+https://grafana.com/docs/
+```
+
+
+# Upodate and upgrade the system, for example Debian.
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
 
 
-# Check latest version.
+# Check latest version of Prometheus and Node Exporter
 ```
-https://prometheus.io/download/
+https://github.com/prometheus/prometheus/releases/
+```
+
+```
+https://github.com/prometheus/node_exporter/releases/
 ```
 
 
-# Download Prometheus server and Node Exporter.
+# Download the latest version of Prometheus and Node Exporter.
 ```
 cd /tmp/
 ```
@@ -201,23 +215,37 @@ sudo systemctl status prometheus
 sudo systemctl status node_exporter
 ```
 
+# Sources
+```
+https://devopscube.com/install-configure-prometheus-linux/
+```
 
-#### Note: Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
+```
+https://devopscube.com/monitor-linux-servers-prometheus-node-exporter/
+```
+
+```
+https://devopscube.com/integrate-visualize-prometheus-grafana/
+```
+
+
+
+##### Note: Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
 ```
 http://<prometheus-ip>:9090/graph
 ```
-#### Note: Check the target in prometheus web UI.
+##### Note: Check the target in prometheus web UI.
 ```
 http://<prometheus-IP>:9090/targets
 ```
-#### You can use the prometheus query tab to query the available metrics as shown in the gig below.
-#### Right now, we have just configured the Prometheus server. You need to register the target in the prometheus.yml file to get the metrics from the source systems.
-#### For example, if you want to monitor ten servers, the IP address of these servers should be added as a target in the Prometheus configuration to scrape the metrics.
-#### The server should have Node Exporter installed to collect all the system metrics and make it available for Prometheus to scrap it.
-#### Follow this detailed Prometheus Node Exporter Guide (https://devopscube.com/monitor-linux-servers-prometheus-node-exporter/) to setup node exporter and registering it to the Prometheus server. 
-#### You can also use this setup as lab for the Prometheus Certified Associate (https://devopscube.com/prometheus-certified-associate/) Certification preparation.
-#### Note: Follow “Integrate And Visualize Prometheus Metrics In Grafana (https://devopscube.com/integrate-visualize-prometheus-grafana/)” blog to visualize the node exporter metrics in Grafana.
-#### Note: Also, you can use the Prometheus expression browser to query for node related metrics. Following are the few key node metrics you can use to find its statistics.
+##### You can use the prometheus query tab to query the available metrics as shown in the gig below.
+##### Right now, we have just configured the Prometheus server. You need to register the target in the prometheus.yml file to get the metrics from the source systems.
+##### For example, if you want to monitor ten servers, the IP address of these servers should be added as a target in the Prometheus configuration to scrape the metrics.
+##### The server should have Node Exporter installed to collect all the system metrics and make it available for Prometheus to scrap it.
+##### Follow this detailed Prometheus Node Exporter Guide (https://devopscube.com/monitor-linux-servers-prometheus-node-exporter/) to setup node exporter and registering it to the Prometheus server. 
+##### You can also use this setup as lab for the Prometheus Certified Associate (https://devopscube.com/prometheus-certified-associate/) Certification preparation.
+##### Note: Follow “Integrate And Visualize Prometheus Metrics In Grafana (https://devopscube.com/integrate-visualize-prometheus-grafana/)” blog to visualize the node exporter metrics in Grafana.
+##### Note: Also, you can use the Prometheus expression browser to query for node related metrics. Following are the few key node metrics you can use to find its statistics.
 ```
 node_memory_MemFree_bytes
 ```
@@ -237,6 +265,3 @@ rate(node_cpu_seconds_total{mode="system"}[1m])
 ```
 rate(node_network_receive_bytes_total[1m])
 ```
-#### Source: https://devopscube.com/install-configure-prometheus-linux/
-#### Source: https://devopscube.com/monitor-linux-servers-prometheus-node-exporter/
-#### Source: https://devopscube.com/integrate-visualize-prometheus-grafana/
