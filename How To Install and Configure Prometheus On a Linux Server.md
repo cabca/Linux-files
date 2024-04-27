@@ -140,12 +140,12 @@ sudo systemctl daemon-reload
 ```
 
 ```
-sudo systemctl start prometheus
+sudo systemctl enable --now prometheus
 ```
 
 ### Step 4: Check the prometheus service status using the following command. The status should show the active state.
 ```
-sudo systemctl enable --now prometheus
+sudo systemctl status prometheus
 ```
 
 
